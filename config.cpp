@@ -6,12 +6,14 @@ class CfgPatches {
 				
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
+		units[] = {};
+		weapons[] = {};
 	};
 };
 
 class CfgFunctions
 {
-    class warner
+    class warnerFlag
     {
         class functions
         {
